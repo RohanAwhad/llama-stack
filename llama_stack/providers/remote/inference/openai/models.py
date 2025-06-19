@@ -14,6 +14,7 @@ from llama_stack.providers.utils.inference.model_registry import (
 LLM_MODEL_IDS = [
     # the models w/ "openai/" prefix are the litellm specific model names.
     # they should be deprecated in favor of the canonical openai model names.
+    "o3",
     "openai/gpt-4o",
     "openai/gpt-4o-mini",
     "openai/chatgpt-4o-latest",

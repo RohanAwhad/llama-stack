@@ -43,6 +43,20 @@ dependencies = [
     "pillow",
     "h11>=0.16.0",
     "python-multipart>=0.0.20",
+    "aiosqlite>=0.21.0",
+    "ollama>=0.5.1",
+    "faiss-cpu>=1.11.0",
+    "trl>=0.18.1",
+    "sentence-transformers>=4.1.0",
+    "opentelemetry-api",
+    "opentelemetry-sdk",
+    "opentelemetry-exporter-otlp-proto-http",
+    "sqlalchemy",
+    "greenlet",
+    "mcp",
+    "autoevals",
+    "litellm>=1.72.6",
+    "together>=1.5.16",
 ]
 
 [project.optional-dependencies]
@@ -106,6 +120,7 @@ test = [
     "transformers",
     "sqlalchemy",
     "sqlalchemy[asyncio]>=2.0.41",
+    "peft>=0.15.2",
 ]
 docs = [
     "sphinx-autobuild",

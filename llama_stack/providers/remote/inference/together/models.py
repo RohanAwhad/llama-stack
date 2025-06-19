@@ -12,6 +12,21 @@ from llama_stack.providers.utils.inference.model_registry import (
 )
 
 MODEL_ENTRIES = [
+    ProviderModelEntry(
+        provider_model_id="deepseek-ai/DeepSeek-V3",
+    ),
+    ProviderModelEntry(
+        provider_model_id="Qwen/Qwen2.5-72B-Instruct-Turbo",
+    ),
+    ProviderModelEntry(
+        provider_model_id="Qwen/Qwen3-235B-A22B-fp8-tput",
+    ),
+    ProviderModelEntry(
+        provider_model_id="Qwen/Qwen2.5-72B-Instruct-Turbo",
+    ),
+    ProviderModelEntry(
+        provider_model_id="deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+    ),
     build_hf_repo_model_entry(
         "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
         CoreModelId.llama3_1_8b_instruct.value,

@@ -10,6 +10,7 @@ from llama_stack.providers.utils.inference.model_registry import (
 )
 
 LLM_MODEL_IDS = [
+    "anthropic/claude-sonnet-4-20250514",
     "anthropic/claude-3-5-sonnet-latest",
     "anthropic/claude-3-7-sonnet-latest",
     "anthropic/claude-3-5-haiku-latest",
