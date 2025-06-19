@@ -66,7 +66,7 @@ You can install the dependencies by running:
 
 ```bash
 cd llama-stack
-uv sync --extra dev
+uv sync --group dev
 uv pip install -e .
 source .venv/bin/activate
 ```
@@ -88,7 +88,7 @@ BRAVE_SEARCH_API_KEY=
 
 And then use this dotenv file when running client SDK tests via the following:
 ```bash
-uv run --env-file .env -- pytest -v tests/integration/inference/test_text_inference.py --text-model=meta-llama/Llama-3.1-8B-Instruct
+uv run --env-file .env -- pytest -v tests/integration/inference/test_text_inference.py --text-model=meta-llama/Llama-3.2-3B-Instruct
 ```
 
 ## Pre-commit Hooks
